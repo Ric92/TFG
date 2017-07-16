@@ -111,7 +111,7 @@ int main(int argc, char * argv[])
    		UERROR("Not built with RealSense support...");
    		exit(-1);
    	}
-   	camera = new CameraRealSense(0, 0, 0, 0, opticalRotation);
+   	//camera = new CameraRealSense(0, 0, 0, 0, opticalRotation);
    }
    else
    {
